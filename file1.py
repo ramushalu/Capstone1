@@ -462,7 +462,9 @@ plt.show()
 print("All visualizations created successfully.")
 
 Output:
+#the output graphs such as bar_chart.png, box_plot.png, line_plot.png, scatter_plot.png, histogram.png are uploaded.
 
+All visualizations created successfully.
 
 ------------------------------------------------------------------
 # TASK 8 - CORRELATION HEATMAP
@@ -496,7 +498,18 @@ print(highest_pair)
 print("Correlation Value:", highest_value)
 
 Output:
+Pearson Correlation Matrix
+               age       bmi  children   charges
+age       1.000000  0.109344  0.041536  0.298308
+bmi       0.109344  1.000000  0.012755  0.198401
+children  0.041536  0.012755  1.000000  0.067389
+charges   0.298308  0.198401  0.067389  1.000000
 
+# the correlation_heatmap.png is uploaded
+
+Highest Absolute Correlation Pair:
+('age', 'charges')
+Correlation Value: 0.2983082125097863
 -----------------------------------------------------------------------
 
 # TASK 9(a) - MEAN VS MEDIAN COMPARISON
