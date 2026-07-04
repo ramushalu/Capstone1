@@ -460,6 +460,10 @@ plt.savefig("box_plot.png")
 plt.show()
 
 print("All visualizations created successfully.")
+
+Output:
+
+
 ------------------------------------------------------------------
 # TASK 8 - CORRELATION HEATMAP
 
@@ -490,6 +494,9 @@ highest_value = corr_abs.stack().max()
 print("\nHighest Absolute Correlation Pair:")
 print(highest_pair)
 print("Correlation Value:", highest_value)
+
+Output:
+
 -----------------------------------------------------------------------
 
 # TASK 9(a) - MEAN VS MEDIAN COMPARISON
